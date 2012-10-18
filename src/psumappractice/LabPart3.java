@@ -5,7 +5,10 @@ import java.util.*;
 public class LabPart3 {
 
     /**
-     * @param args the command line arguments
+     * Store four Employee objects in a HashMap. What key will you use? 
+     * How will you retrieve individual items? Use put(key, value) to add items; 
+     * use get(key) to retrieve items. Demonstrate a solution. How will you 
+     * loop through the keys or values? Demonstrate this too.
      */
     public static void main(String[] args) {
 

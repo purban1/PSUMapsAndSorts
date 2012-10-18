@@ -5,7 +5,12 @@ import java.util.*;
 public class LabPart2 {
 
     /**
-     * @param args the command line arguments
+     * Next, initialize four Employee objects, but this time make sure at least 
+     * two have the same social security number. Now add them to a HashSet. 
+     * Then loop through the HashSet and verify that only two employees can be 
+     * printed out because the duplicate (last item that matches) has been 
+     * removed. Now pass the Set to a List constructor and verify that your 
+     * list contains the transformed Set.
      */
     public static void main(String[] args) {
 
