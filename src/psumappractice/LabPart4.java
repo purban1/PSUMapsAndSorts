@@ -27,6 +27,5 @@ public class LabPart4 {
         map.put(e3.getSsn(), e3);
         map.put(e4.getSsn(), e4);
 
-        
     }
 }
