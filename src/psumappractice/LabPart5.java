@@ -33,12 +33,24 @@ public class LabPart5 {
             System.out.println(e);
         }
         
+        List empList = new ArrayList(empSet);
+        
         // Output results. It should be sorted by SSN.
         // Save the keys in a Set.
         System.out.println("\nUsing the TreeSet, the employees are now:");
         
         Iterator itr = empSet.iterator();
         
+        while(itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }
+        
+        Collections.sort(empList, new EmployeeByLastName());
+        
+        itr = empList.iterator();
+        
+        System.out.println("\nHere are the employees sorted by last name:");
         while(itr.hasNext())
         {
             System.out.println(itr.next());
